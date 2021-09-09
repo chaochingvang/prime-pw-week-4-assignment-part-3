@@ -64,3 +64,4 @@ console.log('List items in basket:', listItems());
 console.log('Now adding camera to basket:', addItem('camera'));
 console.log('List items in basket:', listItems());
 console.log('Emptied basket:', empty());
+console.log('List items in basket:', listItems());
