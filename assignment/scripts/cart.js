@@ -19,7 +19,7 @@ function isFull(){
 //                the function below works exactly the same as the above.
 //
 //  function isFull(){
-//    return basket.length >= maxItems;       
+//    return basket.length >= maxItems;
 //  }         //returns true if basket.length is greater than maxItems, else returns false
 //
 
@@ -28,7 +28,7 @@ function isFull(){
 function addItem(item){
   if (isFull() === false){
     basket.push(item);
-    if (basket[basket.length-1] === item){
+    if (basket[basket.length-1] === item){    //unnecessary
       return true;
     } //end if item added
   } //end if basket full
