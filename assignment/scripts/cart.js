@@ -14,6 +14,17 @@ function isFull(){
   }
 }
 
+// FROM FEEDBACK: conditionals always returns boolean value, so there's no need to check
+//                that boolean value and then return another boolean.
+//                the function below works exactly the same as the above.
+//
+//  function isFull(){
+//    return basket.length >= maxItems;       
+//  }         //returns true if basket.length is greater than maxItems, else returns false
+//
+
+
+
 function addItem(item){
   if (isFull() === false){
     basket.push(item);
